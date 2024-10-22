@@ -5,7 +5,7 @@
 
 module "PSKPlatformVPCRole" {
   source      = "terraform-aws-modules/iam/aws//modules/iam-assumable-role"
-  version     = "5.39.1"
+  version     = "5.47.1"
   create_role = true
 
   role_name                         = "PSKPlatformVPCRole"
